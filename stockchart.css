@@ -1,0 +1,93 @@
+/*Stockchart CSS File*/
+
+h1 {
+	text-align: center;
+}
+
+#stockLookup {
+    padding-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+#ticker {
+    font-size: 16px;
+}
+
+.menu {
+	  float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+
+.menu ul {
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+}
+
+.menu a:link, a:visited {
+    text-decoration:none;
+    margin:0px;
+    float:left;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;
+    display: block;
+    width: 150px;
+    font-weight: bold;
+    color: #007FFF;
+    background-color: #E0FFFF;
+    text-transform: uppercase;
+}
+
+.menu a:hover, a:active {
+	background-color: #CCCCFF;
+}
+
+#quoteHeader {
+    margin-bottom: 3px;
+    text-decoration: underline;
+}
+
+.quote ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+.quoteTable {
+    margin-left: 10px;
+}
+
+.col2 {
+    padding-left: 10px;
+}
+
+.col1 {
+    font-weight: bold;
+}
+
+#chart_div {
+	margin-top: 40px;
+}
+
+.chartOptions h4 {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#timeBtns button {
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 90px;
+    background-color: #BFEFFE;
+    border-radius: 5px;
+    border: solid 1.5px #007FFF;
+}
